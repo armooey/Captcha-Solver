@@ -1,4 +1,4 @@
-# Captcha-Solver  
+## Captcha-Solver  
 
 
 A simple captcha solver in python.  
@@ -13,7 +13,7 @@ It works on captchas like below:
 ---------------------------------------
 
 
-## Before using the code:  
+### Before using the code:  
 1- Install Google tessract OCR standalone and then install its library by **pip install tesseract**.  
 2- Install PILLOW library for Python.  
 3- Copy **tessdata** folder to tesseract install location.  
