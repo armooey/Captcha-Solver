@@ -1,7 +1,11 @@
 #Captcha-Solver
 A simple captcha solver in python.  
 This project uses PILLOW library for image processing and Google Tesseract-OCR for Optical Character recognition.  
-It works on captchas like images in Demo folder.   
+It works on captchas like below:  
+![sample 1](https://raw.githubusercontent.com/armooey/Captcha-Solver/master/Demo/11.jpg)  
+![sample 1](https://raw.githubusercontent.com/armooey/Captcha-Solver/master/Demo/1.jpg)  
+![sample 1](https://raw.githubusercontent.com/armooey/Captcha-Solver/master/Demo/7.jpg)  
+![sample 1](https://raw.githubusercontent.com/armooey/Captcha-Solver/master/Demo/9.jpg)  
 ####################################################################################################################  
 Before using the code:  
 1- Install Google tessract OCR standalone and then install its library by **pip install tesseract**.  
