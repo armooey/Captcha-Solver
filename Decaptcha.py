@@ -1,4 +1,3 @@
-import sys
 from pytesseract import image_to_string
 from PIL import Image
 from PIL import ImageFilter
@@ -73,6 +72,7 @@ b = im.crop((148, 0, 296, 150))
 c = im.crop((296, 0, 444, 150))
 d = im.crop((444, 0, 592, 150))
 e = im.crop((592, 0, 740, 150))
+#For not displaying the result of Image processing juct comment .show() lines
 a = char_op(a)
 a.show()
 b = char_op(b)
