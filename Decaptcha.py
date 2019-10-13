@@ -58,7 +58,7 @@ def char_op(trg):
 ################Driver Code######################
 #################################################
 #################################################
-im = Image.open("C:\\Users\\Amir\\Desktop\\Data\\17.jpg").convert("LA")
+im = Image.open("Address to image").convert("LA")
 im = im.crop((1, 5, 149, 35))
 im = im.resize((5 * im.width, 5 * im.height), Image.ANTIALIAS)
 im = im.filter(ImageFilter.MedianFilter(3))
